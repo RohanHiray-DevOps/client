@@ -8,8 +8,12 @@ const Navbar = () => {
    const [date, setDate] = useState("");
 
   useEffect(() => {
-    const today = new Date();
-    setDate(today.toLocaleDateString());
+    const fetchDate =() => {
+      const today = new Date();
+      setDate(today.toLocaleDateString());
+      
+    };
+    fetchDate();
   }, []);
 
 
