@@ -3,6 +3,8 @@ import "./globals.css";
 import Navbar from "./Components/Navbar";
 import Sidebar from "./Components/Sidebar";
 
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,12 +27,14 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-bg`}
       >
         <div className="flex">
-          <div className="">
+          <div className="hidden md:block">
             <Sidebar />
           </div>
           <div className="flex-1">
             <Navbar />
-            {children}
+           <div className="pt-5 px-10 text-text-primary">
+             {children}
+           </div>
           </div>
         </div>
       </body>

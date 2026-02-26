@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 /* =========================
    🌞 LIGHT THEME (Default)
 ========================= */
@@ -11,17 +12,17 @@
   --color-primary: #2563eb;
   --color-primary-hover: #1d4ed8;
   --color-secondary: #9333ea;
-  --color-accent: #f59e0b;
+  --color-accent: #fbbf24;
 
   /* Backgrounds */
   --color-bg: #ffffff;
   --color-surface: #f8fafc;
-  --color-card: #ffffff;
+  --color-card: #f1f5f9;
   --color-sidebar: #f1f5f9;
-  --color-navbar: #ffffff;
+  --color-navbar: #f1f5f9;
 
   /* Borders */
-  --color-border: #e2e8f0;
+  --color-border: #D5D9DE;
   --color-divider: #f1f5f9;
 
   /* Text */
@@ -37,12 +38,12 @@
   --color-info: #0ea5e9;
 
   /* ================= Radius ================= */
-  --radius-xs: 4px;
+  /* --radius-xs: 4px;
   --radius-sm: 6px;
   --radius-md: 10px;
   --radius-lg: 16px;
   --radius-xl: 24px;
-  --radius-full: 9999px;
+  --radius-full: 9999px; */
 
   /* ================= Shadows ================= */
   --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -74,14 +75,14 @@
   --color-accent: #fbbf24;
 
   /* Backgrounds */
-  --color-bg: #0f172a;
-  --color-surface: #1e293b;
-  --color-card: #1e293b;
-  --color-sidebar: #111827;
-  --color-navbar: #0f172a;
+  --color-bg: #0d1015;
+  --color-surface: #111827;
+  --color-card: #14171c;
+  --color-sidebar: #14171c;
+  --color-navbar: #14171c;
 
   /* Borders */
-  --color-border: #334155;
+  --color-border: #FFFFFFAD;
   --color-divider: #1e293b;
 
   /* Text */
