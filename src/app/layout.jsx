@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
           </div>
           <div className="flex-1">
             <Navbar />
-           <div className="pt-5 px-10 text-text-primary">
+           <div className="pt-8 px-14 text-text-primary">
              {children}
            </div>
           </div>
